@@ -15,7 +15,7 @@ const config = {
 	STICKER_PACK: process.env.STICKER_PACK || 'ᴀsᴛʀᴏ;xsᴛʀᴏ-ᴍᴅ',
 	READ_CMD: toBool(process.env.READ_CMD) || true,
 	AUTO_READ: toBool(process.env.AUTO_READ) || false,
-	AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || false,
+	AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
 	MODE: process.env.MODE || 'private',
 	CMD_REACT: process.env.CMD_REACT || true,
 	HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
