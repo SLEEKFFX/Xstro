@@ -4,7 +4,7 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 
 const config = {
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'XSTRO_33_05_00',
 	PREFIX: process.env.PREFIX || '.',
 	SUDO: process.env.SUDO || '',
 	BOT_INFO: process.env.BOT_INFO || 'Astro;Xstro_Bot',
